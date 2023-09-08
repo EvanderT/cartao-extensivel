@@ -1,0 +1,25 @@
+body{
+    background-color: #161616;
+    color: aliceblue;
+}
+
+.expand_content .expand .alt_text{
+    display: none;
+}
+
+.expand_content .hidden_content{
+    display: none;
+}
+
+.expand_content.active .expand .default_text{
+    display: none;
+}
+
+.expand_content.active .expand .alt_text{
+    display: block;
+}
+
+
+.expand_content.active .hidden_content{
+    display: block;
+}
